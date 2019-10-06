@@ -15,6 +15,10 @@ def botCore(r):
         if "cat" in comment.body:
             print("comment found")
             comment.reply("thats a cat alright")
+            
+        if "dog" in comment.body:
+            print("comment found")
+            comment.reply("woof, doggo alert")
 
 r = login()
 botCore(r)
